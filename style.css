@@ -1,0 +1,29 @@
+/* style.css */
+body {
+    background-color: beige;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 20px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    text-decoration-style: dashed ;
+}
+button { 
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: blanchedalmond;
+    color: black ;
+    font-size: 16px;
+    border: 0cqmax;
+    border-radius: 6px;
+    cursor: pointer;
+    }

@@ -1,0 +1,15 @@
+/*style.css*/
+body {
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+h1 {
+    color: cadetblue;
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    text-decoration-style: dashed;
