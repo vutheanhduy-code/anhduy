@@ -22,8 +22,52 @@
       background-color: blueviolet;
       }
 </style>
+   <head>
+  <meta charset="UTF-8">
+  <title>Thanh lựa chọn</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .menu {
+      display: flex;
+      background-color: #f0f2f5;
+      padding: 10px;
+      justify-content: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .menu a {
+      text-decoration: none;
+      color: #333;
+      padding: 10px 20px;
+      margin: 0 5px;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+    .menu a:hover {
+      background-color: #e4e6eb;
+    }
+    .menu a.active {
+      background-color: #1877f2;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <a href="#" class="active">Trang chủ</a>
+    <a href="#">Video</a>
+    <a href="#">Marketplace</a>
+    <a href="#">Nhóm</a>
+    <a href="#">Trò chơi</a>
+  </div>
+</body>
+</html>
 </body>
 
 </html>
+
 
 
